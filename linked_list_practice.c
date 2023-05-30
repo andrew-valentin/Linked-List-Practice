@@ -39,6 +39,8 @@
 
 #include <stdio.h>
 
+#define EMPTY 0
+
 // Node struct
 typedef struct Node 
 {
