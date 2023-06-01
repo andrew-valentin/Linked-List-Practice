@@ -262,6 +262,18 @@ void printLL(Node *head)
 	// your code goes here
 }
 
+// Takes in the head of a linked list and frees all nodes in the linked list
+??? freeLLHead(???)
+{
+	// your code goes here
+}
+
+// Takes in a linked list and frees the entire linked list
+??? freeLL(???)
+{
+	// your code goes here
+}
+
 
 
 int main() 
