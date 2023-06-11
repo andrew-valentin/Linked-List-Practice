@@ -56,17 +56,19 @@ typedef struct LL
 } LL;
 
 // Prints a linked list
-void printLL(Node *head) 
+void printLLHead(Node *head) 
 {
-  Node *temp = head;
+	Node *temp = head;
 
-  while (temp != NULL) 
-  {
-    printf("%d -> ", temp->value);
-    temp = temp->next;
-  }
-  
-  printf("NULL\n");
+	printf("\n");
+
+	while (temp != NULL) 
+	{
+		printf("%d -> ", temp->value);
+		temp = temp->next;
+	}
+
+	printf("NULL\n");
 }
 
 // Creates an empty linked list and returns the address
@@ -209,6 +211,18 @@ void printLL(Node *head)
 	// your code goes here
 }
 
+// Takes in the head of a linked list and inserts a node with value val in between every node
+??? insertBetweenAllNodesLLHead(Node *head, int val)
+{
+	// your code goes here
+}
+
+// Takes in a linked list and inserts a node with value val in between every node
+??? insertBetweenAllNodesLL(LL *list, int val)
+{
+	// your code goes here
+}
+
 
 
 // Takes in the head of a linked list, removes a node from the head, and returns the new head
@@ -258,6 +272,18 @@ void printLL(Node *head)
 
 // Takes in a linked list and an index and removes the node at that index
 ??? removeNodeInIndexFromLL(???)
+{
+	// your code goes here
+}
+
+// Takes in the head of a linked list and removes all nodes with the value val
+??? removeAllValuesFromLLHead(???)
+{
+	// your code goes here
+}
+
+// Takes in a linked list and removes all nodes with the value val
+??? removeAllValuesFromLL(???)
 {
 	// your code goes here
 }
